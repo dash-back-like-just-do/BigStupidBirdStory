@@ -19,3 +19,15 @@ type tCharaData={
     mood:tMaxNumber,
     energy:tMaxNumber,
 }
+
+enum eMonsterType{
+    wolf
+}
+
+type tMonsterData={
+    type:eMonsterType
+
+    battleData:tBattleData,
+    
+    hp:tMaxNumber,
+}
